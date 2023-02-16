@@ -15,8 +15,8 @@ body {
   font-weight: 500;
   justify-content:center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- background-color: bisque;
- color: #F18946;
+ background-color: rgb(235, 170, 229);
+ color: #0e0d0e;
  
 }
 #navigation {
@@ -26,7 +26,7 @@ body {
   align-items: right;
   margin: 1%;
   justify-content: space-evenly;
-  background-color: #F18946;
+  background-color: rgb(235, 170, 229);
   color: bisque;
   
 }
@@ -35,7 +35,7 @@ body {
   text-decoration: none;
 }
 header {
-background-color: bisque;
+background-color: rgb(235, 170, 229);
 }
 
 .section-title{
