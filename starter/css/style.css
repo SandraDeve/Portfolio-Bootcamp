@@ -2,8 +2,26 @@
 body {
  
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- 
 }
+h1,h2,p{
+  font-size: 22px;
+  font-weight: 600;
+  margin: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  display:block
+}
+
 #navBar {
   display: flex;
   flex-direction: row;
@@ -24,7 +42,7 @@ body {
   display: flex;
   width: 80%;
   align-items: right;
-  margin: 1%;
+  margin: 2.5%;
   justify-content: space-evenly;
   background-color: rgb(235, 170, 229);
   color: bisque;
@@ -42,7 +60,6 @@ background-color: rgb(235, 170, 229);
   margin: 25px 0;
   padding: 10px 0;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   align-items: stretch; 
   justify-content: space-between;
@@ -65,17 +82,34 @@ background-color: rgb(235, 170, 229);
 }
 
 
-.flex-item{
-  border: 5px red;
-  flex-basis: calc(50%-1em);
-  display: flex;
-  align-items: flex-end;
+/*  -- Contact --*/
+/* -- Work --*/
+.work_container{
+  display: grid;
+  column-gap: 10px;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows:  1fr 1fr 1fr;
+}
+.work__img{
+  box-shadow: 0 3px 22px rgba(14,36,49,.15);
+  border-radius: 0rem;
+  overflow: hidden;
+  
 
 }
-
-
-.surf{
-  background-image: url("https://picsum.photos/id/237/200/300");
+.work__img img{
+  transition: 1s;
+  cursor: pointer;
 }
-
-
+.work__img img:hover{
+  transform: scale(1.1);
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.5); 
+  color: #d184cb;
+  width: 100%;
+  transition: .5s ease;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;}
