@@ -25,7 +25,7 @@ Here are the critical requirements necessary to develop a portfolio that satisfi
 
 The following animation shows the web application's appearance and functionality:
 
-![](https://github.com/SandraDeve/Portfolio-Bootcamp/blob/main/starter/images/demo.gif)
+![](https://github.com/SandraDeve/Portfolio-Bootcamp/blob/main/images/demo.gif)
 
 Feel free to use your own colors and images.
 
@@ -70,6 +70,6 @@ You are required to submit BOTH of the following for review:
 * The URL of the deployed application: https://sandradeve.github.io/Portfolio-Bootcamp/
 
 * The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
+![](https://github.com/SandraDeve/Portfolio-Bootcamp/blob/main/images/Screenshot.png)
 ---
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
