@@ -2,8 +2,15 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   background-color: antiquewhite;
+  margin-top: 1%;
+  margin-bottom: 1%;
+ 
 }
-
+main{
+  margin-right: 10%;
+  margin-left: 10%;
+ 
+}
 h1,
 h2,
 p {
@@ -95,6 +102,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: justify;
 }
 .contact {
   display: flex;
@@ -118,6 +126,8 @@ header {
 }
 #whitepic img {
   width: 100%;
+
+ 
 }
 
 .work__img img {
