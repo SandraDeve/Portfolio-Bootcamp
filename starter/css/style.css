@@ -136,6 +136,15 @@ header {
   padding: 20px;
   text-align: center;
 }
+/*--contact --*/
+.contact_container {
+  display: flex;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 10px 0;
+
+ 
+}
 /* --footer --*/
 .footer {
   background-color: #a1a4a7;
@@ -149,14 +158,30 @@ header {
   #navBar {
     flex-direction: column;
   }
+  .overlay {
+    font-size: 10px;
+    padding: 20px;
+    text-align: left;
 }
+}
+
+
 @media screen and (max-width: 320px) {
   #navigation {
     display: table-column;
   }
-}
-@media screen and (max-width: 320px) {
   #hero-content {
    margin-right: 0px;
   }
+.contact_container {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px 0;
+}
+.overlay {
+font-size: 10px;
+padding: 20px;
+text-align: left;
+}
+
 }
