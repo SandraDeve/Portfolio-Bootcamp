@@ -150,3 +150,13 @@ header {
     flex-direction: column;
   }
 }
+@media screen and (max-width: 320px) {
+  #navigation {
+    display: table-column;
+  }
+}
+@media screen and (max-width: 320px) {
+  #hero-content {
+   margin-right: 0px;
+  }
+}
