@@ -25,7 +25,7 @@ Here are the critical requirements necessary to develop a portfolio that satisfi
 
 The following animation shows the web application's appearance and functionality:
 
-![](https://github.com/SandraDeve/Portfolio-Bootcamp/demo.gif)
+![](https://github.com/SandraDeve/Portfolio-Bootcamp/blob/main/starter/images/demo.gif)
 
 Feel free to use your own colors and images.
 
