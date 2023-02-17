@@ -2,7 +2,10 @@
 body {
  
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color:antiquewhite;
 }
+
+
 h1,h2,p{
   font-size: 22px;
   font-weight: 600;
@@ -57,6 +60,29 @@ img{
 header {
 background-color: rgb(235, 170, 229);
 }
+
+/*banner */
+.home {
+  display: flex;
+  height: 160px;
+  margin-bottom: 10px;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  background-image: url(../images/kwiat.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+#hero-content {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 80px;
+  margin-bottom: 5px;
+  padding: 0px 5px;
+  color: #f0ecef;
+
+}
+
 
 .section-title{
   margin: 25px 0;
